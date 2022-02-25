@@ -6,8 +6,8 @@
 - [Functionality](#Functionality)
 - [Technologies](#Technologies)
   - [Front-end](#Front-end)
-- [Issues / PR](#Issues-/-PR)
 - [How to run](#How-to-run)
+- [How to test](#How-to-run-tests)
 
 # About the project
 
