@@ -5,7 +5,6 @@
 - [Screenshots](#Screenshots)
 - [Functionality](#Functionality)
 - [Technologies](#Technologies)
-  - [Front-end](#Front-end)
 - [How to run](#How-to-run)
 - [How to test](#How-to-run-tests)
 
