@@ -16,7 +16,7 @@ their air quality displayed in cigarettes and particulate matter. The project is
 
 # Live Demo
 
-<a title="Deployed on aws" href="http://bbc-news-test.s3-website-us-east-1.amazonaws.com/">Deployed on aws
+<a title="Deployed on aws" href="http://bbc-news-test.s3-website-us-east-1.amazonaws.com/">http://bbc-news-test.s3-website-us-east-1.amazonaws.com/
 </a>
 
 # Screenshots
