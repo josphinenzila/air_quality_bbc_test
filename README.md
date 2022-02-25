@@ -63,7 +63,6 @@ $ git clone https://github.com/josphinenzila/air_quality_bbc_test.git
 $ cd air_quality_bbc_test
 # Install dependancies
 $ npm i
-
 # npm run to start the server
 $ npm start
 
