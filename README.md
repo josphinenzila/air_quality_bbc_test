@@ -11,8 +11,7 @@
 
 # About the project
 
-This is a project that enables the user to select a city in india and see a display of
-their air quality displayed in cigarettes and particulate matter. The project is hosted on aws s3.
+The project is a website built in React that allows a user to choose a city in india to view air quality in cigarettes and particulate matter. The site allows language translation in english and hindi. The project follows a cicd workflow that deploys the optimized build to amazon s3 via github actions.
 
 # Live Demo
 
@@ -45,13 +44,9 @@ their air quality displayed in cigarettes and particulate matter. The project is
 # Functionality
 
 - [x] Ability to switch languanges between english and hindi
-- [x] Ability for users to choose a city and see air quality in the form of cigarettes and particulate matter (PM2.5)
-- [x] All production files output are in a ./dist folder ready for making live.
-- [x] Tests
+- [x] Ability for users to choose a city and see air quality in the form of cigarettes and particulate matter
 
 # Technologies
-
-## Front-end
 
 - [React](https://create-react-app.dev/)
 - [Bootstrap](https://getbootstrap.com/)
@@ -61,12 +56,6 @@ their air quality displayed in cigarettes and particulate matter. The project is
 
 # How to run
 
-Don't forget to configure .env file at the root of the project, use the following data:
-
-```
-SKIP_PREFLIGHT_CHECK=true
-```
-
 ```bash
 # Clone the repo
 $ git clone https://github.com/josphinenzila/air_quality_bbc_test.git
@@ -74,8 +63,7 @@ $ git clone https://github.com/josphinenzila/air_quality_bbc_test.git
 $ cd air_quality_bbc_test
 # Install dependancies
 $ npm i
-# npm run build to build the production files on dist folder
-$ npm run build
+
 # npm run to start the server
 $ npm start
 
@@ -83,8 +71,21 @@ $ npm start
 
 # How to run tests
 
-Note that to run tests you use the command:
+Configure .env file at the root of the project, use the following data:
+
+```
+SKIP_PREFLIGHT_CHECK=true
+```
+
+Use the command below to run tests:
 
 ```
 $ npm run test
+```
+
+# Generate optimized build
+
+```
+$ npm run build
+
 ```
